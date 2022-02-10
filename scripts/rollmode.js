@@ -38,7 +38,7 @@ Hooks.on('init', () => {
     
     game.settings.register(MODULE_NAME, 'notify', {
         name: "Notifications",
-        hint: "Enable notifications to confirm the roll mode.",
+        hint: "Enable notifications when keys are pressed. Useful for when the chat log is not visible.",
         scope: "client",
         config: true,
         default: true,
