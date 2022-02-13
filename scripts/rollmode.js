@@ -13,17 +13,14 @@ const modes = [
     {
         value: "publicroll",
         stub: "Public",
-        keybind: []
-    },
-    {
-        value: "privateroll",
-        stub: "Private",
-        keybind: []
     },
     {
         value: "gmroll",
+        stub: "Private GM",
+    },
+    {
+        value: "blindroll",
         stub: "Blind GM",
-        keybind: []
     },
 ]
 
@@ -50,7 +47,7 @@ Hooks.on('init', () => {
             game.keybindings.register(MODULE_NAME, `toggle-${mode.value}`, {
                 name: `Toggle ${mode.stub} Roll Mode`,
                 hint: `Swap between Public and ${mode.stub} roll modes.`,
-                editable: mode.keybind,
+                editable: mode.keybind || [],
                 onDown: () => {
                     if (game.settings.get("core", 'rollMode') !== mode.value) {
                         setMode(mode);
