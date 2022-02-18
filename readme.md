@@ -1,4 +1,4 @@
-This module adds keybindings to quickly switch the chat roll mode from any screen.
+Add keybindings to quickly switch the chat roll mode from any screen.
 A notification will appear when the roll mode is changed using a keybind (can be disabled).
 
 Using toggle mode will switch between Public and the mode desired.

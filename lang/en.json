@@ -1,0 +1,36 @@
+{
+    "rollmode-toggle": {
+        "notification": {
+            "selfroll": "Roll mode set to: Self Roll",
+            "publicroll": "Roll mode set to: Public Roll",
+            "gmroll": "Roll mode set to: Private GM Roll",
+            "blindroll": "Roll mode set to: Blind GM Roll"
+        },
+        "settings": {
+            "notify": {
+                "name": "Enable notifications",
+                "hint": "Show a notification when the roll mode is changed using a keybind."
+            }
+        },
+        "keybinds": {
+            "toggle": {
+                "selfroll.name": "Toggle Self Roll mode",
+                "selfroll.hint": "Swap between Public and Self roll modes.",
+                "gmroll.name": "Toggle Private GM Roll mode",
+                "gmroll.hint": "Swap between Public and Private GM roll modes.",
+                "blindroll.name": "Toggle Blind Roll mode",
+                "blindroll.hint": "Swap between Public and Blind roll modes."
+            },
+            "set": {
+                "selfroll.name": "Switch to Self Roll mode",
+                "selfroll.hint": "Set the chat roll mode to Self Roll mode.",
+                "publicroll.name": "Switch to Public Roll",
+                "publicroll.hint": "Set the chat roll mode to Public Roll.",
+                "gmroll.name": "Switch to Private GM Roll",
+                "gmroll.hint": "Set the chat roll mode to Private GM Roll.",
+                "blindroll.name": "Switch to Blind GM Roll",
+                "blindroll.hint": "Set the chat roll mode to Blind GM Roll."
+            }
+        }
+    }
+}
